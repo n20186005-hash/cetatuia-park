@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "title": "Cetățuia Park | Cluj-Napoca Hilltop Fortress Park & City Panoramic Landmark - Best European Spots",
+    "description": "Complete guide to Cetățuia Park in Romania. Learn about opening hours, transportation, ticket info, tour tips and stunning photos. 18th-century fortress ruins with breathtaking city views."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Cetățuia Park",
+    "subtitle": "Cluj-Napoca, Romania · 18th-Century Fortress Ruins & Hilltop Panoramic Landmark",
+    "rating": "4.6",
+    "reviewCount": "12,084",
+    "hours": "Open 24/7",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Cetățuia Park",
+    "description": "Step into Cetățuia Park and instantly feel the awe from the expansive views and historical gravitas of this hilltop sanctuary. Perched atop Cluj-Napoca, this park serves as a natural observation deck, offering panoramic views of the colorful Old Town, the winding Someș River, and the distant mountains at every turn. Each ruin whispers the glory of the Habsburg Empire and the passion of revolutionary times.\n\nVisiting on an autumn evening, the setting sun paints the Old Town architecture in warm golden hues. The Someș River flows crystal clear, reflecting the sky and city silhouette in tranquil stillness—a scene like a serene painting. The fortress ruins bear rough, ancient stone textures, weathered by centuries and battle, exuding an even more poignant sense of resilience.\n\nWithin the park, visitors move at a leisurely pace. Locals stroll and chat along tree-lined paths, tourists pause at viewing platforms to admire the city panorama, children play joyfully on sports fields. The Cross Monument stands quietly, commemorating heroes who sacrificed for national independence and guarding the city's historical memory.\n\nAs night falls and lights illuminate, the Old Town's architectural contours are gently outlined, the river glitters with light. Ancient fortress ruins, verdant forests, and brilliant city lights create a harmonious blend—military history's weight, nature's elegance, and national spirit's grandeur interweave perfectly, both breathtaking and healing.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Recommended to visit on weekday mornings or evenings for fewer crowds and softer lighting",
+        "Park has steep stone steps and paved paths; wear comfortable non-slip flat shoes",
+        "Summer sun is strong—apply sunscreen; winter winds are strong—dress warmly",
+        "Protect historical ruins and public facilities; climbing walls or carving stones is prohibited"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Important historical fortress site in Transylvania region",
+        "Vauban-style fortification built by the Habsburg Empire in the 18th century",
+        "1848 Revolution memorial site and symbol of national spirit",
+        "Best viewpoint overlooking all of Cluj-Napoca"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "The Charm of Cetățuia Park",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Centuries of Fortress History",
+        "content": "Before the 18th century, the hill where Cetățuia Park stands was a natural hilltop. In 1735, to strengthen control over Cluj-Napoca, the Habsburg Empire built the first Vauban-style fortification in Transylvania here. After completion, it became the city's military center and was later converted into a prison.\n\nDuring the 1848 Romanian Revolution, the fortress served as a prison for revolutionary heroes. The famous revolutionary Stephen Ludwig Roth was executed here, becoming a symbol of national sacrifice.\n\nAfter the 20th century, the fortress gradually fell into disrepair. In 1995, the National Heroes' Cross Monument was erected on the hilltop to commemorate the martyrs of the 1848 Revolution. It was subsequently transformed into an urban park, preserving some fortress ruins while adding leisure facilities. Today, it has become Cluj-Napoca's most representative hilltop park and historical-cultural landmark.\n\nFor centuries, Cetățuia Park has evolved from a military fortress and prison to a memorial site, leisure park, and panoramic viewing platform—witnessing Cluj-Napoca's transformation from Habsburg rule through the Austro-Hungarian Empire to modern Romania."
+      },
+      {
+        "id": "architecture",
+        "title": "Architectural Features",
+        "content": "A hilltop park at 405 meters elevation with plateau-style terrain. Preserved elements include 18th-century fortress walls, two city gates, and architectural ruins. The 1995 National Heroes' Cross Monument stands prominently. Facilities include a fitness area, sports courts, tree-lined promenades, and viewing terraces overlooking the Someș River and the entire city.\n\nThe architectural style is Baroque fortification, blending Habsburg military aesthetics with Transylvanian local stone craftsmanship. Fortress ruins are thick and primitive with simple, sturdy lines. Modern park design is simple and natural with winding paths and lush greenery—historical ruins and natural green spaces coexist in harmony."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Significance",
+        "content": "Cluj-Napoca's urban elevation point and panoramic landmark. A core leisure venue for local residents, hosting outdoor concerts, cultural festivals, and commemorative events. The 1848 Revolution memorial site where the Cross Monument symbolizes national spirit. It's also a famous Romanian photography destination, with city panorama and sunset views being highly attractive.\n\nFor centuries, it has witnessed the city's transformation from a Habsburg military fortress to a modern leisure park, maintaining an open and inclusive character and remaining one of Romania's most popular urban parks."
+      },
+      {
+        "id": "experience",
+        "title": "Core Experience",
+        "content": "Enter from the south trail entrance at the hill base in the evening. Climb the stone steps slowly, visiting fortress ruins, the Cross Monument, and viewing platforms. Stroll along tree-lined promenades and rest at the viewing terrace.\n\nThe fortress ruins feature rough, ancient stone textures weathered by centuries and battle—exuding poignant resilience. The Cross Monument stands quietly, commemorating heroes who sacrificed for national independence and guarding the city's historical memory. Standing on the viewing platform, the entire Cluj-Napoca Old Town unfolds before your eyes, with colorful buildings and the winding Someș River creating a magnificent canvas.\n\nAs night falls and lights illuminate, Old Town architectural contours are gently outlined, the river glitters with light. Ancient fortress ruins, verdant forests, and brilliant city lights interweave—blending military history's weight, nature's elegance, and national spirit's grandeur perfectly."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Parcul Cetățuia",
+    "type": "Attraction Type",
+    "typeValue": "Urban Hilltop Park, Historical Fortress Ruins, Panoramic Viewing Platform, Natural Recreation Green Space",
+    "country": "Country",
+    "countryValue": "Romania",
+    "city": "City",
+    "cityValue": "Cluj-Napoca",
+    "googleRating": "Google Rating",
+    "phone": "Phone",
+    "address": "Address",
+    "addressValue": "Strada Emil Racoviță 60a, Cluj-Napoca 400124, Romania"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Outdoor Area",
+    "outdoorTime": "Open 24/7 year-round; no park closure restrictions for public areas",
+    "lighthouse": "Trails & Viewing Platforms",
+    "summer": "Summer (April - September)",
+    "summerTime": "Open 24 hours",
+    "winter": "Winter (October - March)",
+    "winterTime": "Open 24 hours",
+    "warning": "Travel Tips",
+    "warningTime": "Recommended to visit on weekday mornings or evenings for fewer crowds and softer lighting, ideal for strolling and photography",
+    "tip": "Evening lighting is most beautiful for sunset and twilight views of the Old Town"
+  },
+  "tickets": {
+    "title": "Ticket Prices",
+    "outdoor": "Cetățuia Park Entire Area",
+    "outdoorPrice": "Free access throughout the park; no entrance fees",
+    "lighthouse": "Historical Ruins Inside",
+    "adults": "Guided Tours",
+    "adultsPrice": "Free",
+    "students": "Special Exhibitions",
+    "studentsPrice": "Separate admission required (subject to venue announcement)",
+    "children": "Children",
+    "childrenPrice": "Free",
+    "card": "Cluj-Napoca City Card",
+    "cardPrice": "Can offset some nearby venue fees; ideal for multi-attraction travelers"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "airport": "From Cluj-Napoca International Airport",
+    "airportDesc": "Take airport shuttle buses to the city center, then walk 15 minutes to the park entrance (about 30 minutes total). Rideshare from the airport provides direct access—ideal for travelers with luggage or group travel.",
+    "selfDrive": "Public Transport (Recommended)",
+    "selfDriveDesc": "City public transport runs frequently with excellent connections. Purchase a Cluj-Napoca public transport day pass for unlimited bus rides to efficiently explore all city attractions.",
+    "bus": "From Old Town Attractions",
+    "busDesc": "Walkable from Saint Michael's Church, Central Market, and other Old Town attractions. Mountain trail connections are well-developed—ideal for hiking between landmarks.",
+    "intercity": "From Central Station & Bus Station",
+    "intercityDesc": "Walk to the park foothills within 20 minutes. Public transport runs frequently with convenient connections.",
+    "cycling": "Bike / Scooter",
+    "cyclingDesc": "Public bike-sharing stations are available near the hill base. Smooth paved paths and gentle slopes offer comfortable cycling experiences for short trips.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Purchase a Cluj-Napoca public transport day pass for unlimited bus rides to efficiently explore all city attractions."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Recommended to enter in the evening from the south trail entrance at the hill base. Climb the stone steps slowly, visiting fortress ruins, the Cross Monument, and viewing platforms. Stroll along tree-lined promenades and rest at the viewing terrace. The walk is easy and relaxed. Pure sightseeing takes about 1.5 hours; a deep experience of history and nature can extend to half a day.",
+    "steps": [
+      "Arrive at the public transport stop near the park foothills and walk to the Cetățuia Park south trail entrance",
+      "Climb the stone steps slowly, enjoying mountain forest greenery and gradually changing city views",
+      "Reach the fortress ruins area to closely view 18th-century walls, gates, and architectural sites",
+      "Proceed to the hilltop to visit the National Heroes' Cross Monument and learn about revolutionary history",
+      "Arrive at the viewing platform to overlook the Cluj-Napoca Old Town, Someș River, and distant mountain panoramas",
+      "Stroll along the park's tree-lined promenades, enjoying autumn foliage and four-season flower landscapes",
+      "Rest at the viewing terrace, enjoy local coffee, and admire the city's twilight and sunset views",
+      "Descend via the north trail to connect with nearby Old Town attractions and dining districts"
+    ],
+    "supplements": [
+      "The park has steep stone steps and paved paths—wear comfortable non-slip flat shoes",
+      "Summer sun is strong—apply sunscreen; winter winds are strong—dress warmly",
+      "Protect historical ruins and public facilities; climbing walls or carving stones is prohibited",
+      "The park maintains a dignified and serene atmosphere; speak softly and respect locals' leisure environment",
+      "Summer features occasional outdoor concerts, cultural festivals, and revolutionary commemorative events"
+    ]
+  },
+  "photoSpots": {
+    "title": "Photo Spots",
+    "spots": [
+      {
+        "name": "Hilltop Viewing Platform",
+        "desc": "Wide-angle shots of Cluj-Napoca Old Town, Someș River, and distant mountains—breathtaking and grand"
+      },
+      {
+        "name": "Fortress Ruins Area",
+        "desc": "Ancient fortress walls as foreground with cityscape as background—rich historical gravitas"
+      },
+      {
+        "name": "Cross Monument Side View",
+        "desc": "Upward shots of the monument against the sky—emphasizing sacred solemnity and national spirit"
+      },
+      {
+        "name": "Tree-Lined Promenade",
+        "desc": "Strong depth with stone steps, greenery, and distant city views forming unique compositions"
+      },
+      {
+        "name": "Sunset Viewing Terrace",
+        "desc": "Golden Old Town silhouettes and river reflections at sunset—romantic and healing"
+      },
+      {
+        "name": "Fortress Gate Perspective",
+        "desc": "City framed by the fortress gate—unique composition blending history and modernity"
+      }
+    ],
+    "tips": "Photography Tips",
+    "tipsContent": "The park has abundant natural light with rich layers on sunny days—ideal for landscapes and portraits. Drone flying is prohibited throughout the park—follow local heritage protection regulations. Politely ask before photographing locals. Peak travel season (summer, weekends) brings more visitors; for empty shots, arrive early on weekday mornings."
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Upscale Value: Retro Mountain Town Hotel (Walking Distance)",
+        "desc": "Converted from stone buildings with windows overlooking the Old Town and fortress ruins—elegant and livable",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Design Choice: Modern Minimalist Stay by Someș River",
+        "desc": "Spacious river views with walking access to the park and Old Town attractions",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Unique Experience: Transylvanian Retro B&B in Old Town Alley",
+        "desc": "Rich Central European mountain town atmosphere for immersive local life experiences",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Budget Choice: High-Value Accommodation Near Central Station",
+        "desc": "Convenient public transport with short trips to the park",
+        "price": "Price varies by season"
+      }
+    ],
+    "supplements": "Accommodation Tips",
+    "supplementsContent": "Cluj-Napoca city center is generally safe with comfortable daytime sightseeing. Simply avoid quiet alleyways at night. Accommodation prices rise during peak travel season (summer, weekends)—book in advance. Prioritize accommodations between the park and Old Town for walking access to Cetățuia Park, Saint Michael's Church, Central Market, Someș River, and other core attractions—saving travel time."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Cetățuia Park Fortress Panoramas & Cluj-Napoca Scenery",
+    "captions": [
+      "Cetățuia Park Panoramic View",
+      "Cluj-Napoca Old Town Overlook",
+      "Someș River Banks",
+      "Fortress Wall Ruins",
+      "Tree-Lined Promenade",
+      "Cross Monument",
+      "Mountain Town Sunset",
+      "Viewing Platform Night View"
+    ],
+    "viewAll": "View on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Traveler Xiao Lin",
+        "date": "April 2026",
+        "rating": 5,
+        "text": "The most unforgettable place in Cluj-Napoca! Standing on the hilltop watching the sunset, the entire Old Town turned golden—how romantic. The fortress ruins also have great historical significance."
+      },
+      {
+        "name": "Photography Enthusiast AJ",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "A photography paradise! Every angle is postcard-level scenery. Evening light is the most beautiful—arrive early to secure your spot."
+      },
+      {
+        "name": "European Backpacker Sophie",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "A must-visit for history enthusiasts! The fortress ruins are well preserved, and the Cross Monument is deeply moving. The city views from above are also excellent."
+      },
+      {
+        "name": "Artistic Soul Marta",
+        "date": "January 2026",
+        "rating": 5,
+        "text": "I prefer this to the popular attractions. No over-development, just natural and historical fusion of tranquility. The trails and viewing platforms all have great character."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Strada Emil Racoviță 60a, Cluj-Napoca 400124, Romania",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Cetățuia Park Independent Travel Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "council": "Romanian Tourism",
+      "tourism": "Cluj-Napoca Tourism",
+      "england": "Visit Romania"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Cetățuia Park",
+    "text": "Cetățuia Park is one of Cluj-Napoca's most representative urban hilltop parks and an important historical-cultural landmark in Romania.\n\nAs an important historical fortress site in Transylvania, Cetățuia Park has witnessed centuries of urban transformation and historical development. Today, the scenic area is open to the public free of charge, offering an excellent destination for exploring Cluj-Napoca's panoramic city views and an important window for visitors worldwide to experience Romania's historical charm."
+  },
+  "recommendations": {
+    "title": "Discover More",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {"name": "Saint Michael's Church", "url": "https://www.clujtourism.ro"},
+      {"name": "Central Market", "url": "https://www.clujtourism.ro"},
+      {"name": "Someș River Banks", "url": "https://www.clujtourism.ro"},
+      {"name": "National Art Museum", "url": "https://www.clujtourism.ro"}
+    ],
+    "tours": [
+      {"name": "Cluj Old Town Deep Tour", "url": "https://www.clujtourism.ro"},
+      {"name": "Fortress History Tour", "url": "https://www.clujtourism.ro"},
+      {"name": "City Panoramic Cycling", "url": "https://www.clujtourism.ro"},
+      {"name": "Local Food Experience", "url": "https://www.clujtourism.ro"}
+    ]
+  }
+}
