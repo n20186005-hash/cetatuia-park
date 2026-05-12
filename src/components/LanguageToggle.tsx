@@ -44,11 +44,7 @@ export default function LanguageToggle() {
     const pathWithoutLocale = segments.length > 0 ? `/${segments.join('/')}` : '/';
     
     // Navigate
-    if (next === routing.defaultLocale) {
-      router.push(pathWithoutLocale);
-    } else {
-      router.push(`/${next}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
-    }
+    router.push(`/${next}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
   }
 
   return (
