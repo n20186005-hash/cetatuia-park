@@ -1,12 +1,14 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
   const t = useTranslations('header');
+  const locale = useLocale();
+  const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,17 +27,18 @@ export default function Header() {
       }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <a href="/" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
+        <a href={`/${locale}`} className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
           Cetățuia Park
         </a>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+        <nav id="site-navigation" className={`${menuOpen ? 'flex' : 'hidden'} absolute top-16 left-0 right-0 p-5 flex-col md:static md:p-0 md:flex md:flex-row items-center gap-6`} style={{background: menuOpen ? 'var(--bg-secondary)' : undefined}}>
+          {(['gallery', 'reviews', 'map', 'nearby'] as const).map((section) => (
             <a
               key={section}
-              href={`/#${section}`}
+              href={`/${locale}#${section}`}
+              onClick={() => setMenuOpen(false)}
               className="text-sm font-medium transition-colors"
-              style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
+              style={{ color: scrolled || menuOpen ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {t(section)}
             </a>
@@ -43,6 +46,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <button type="button" className="md:hidden px-2 py-1 rounded" style={{background:'var(--bg-secondary)',color:'var(--text-primary)'}} aria-controls="site-navigation" aria-expanded={menuOpen} aria-label={locale==='zh'?'导航菜单':'Navigation menu'} onClick={()=>setMenuOpen(!menuOpen)}>☰</button>
           <ThemeToggle />
           <LanguageToggle />
         </div>

@@ -1,0 +1,1 @@
+export default function NotFound(){return <html lang="en"><head><meta name="robots" content="noindex"/></head><body><main><h1>Page not found</h1><a href="/en">English guide</a> · <a href="/zh">中文指南</a></main></body></html>}

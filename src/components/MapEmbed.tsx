@@ -20,10 +20,6 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
             src="https://maps.google.com/maps?q=Cet%C4%83%C8%9Buia%20Park,%20Cluj-Napoca,%20Romania&t=&z=15&ie=UTF8&iwloc=&output=embed"
             width="100%"
@@ -39,7 +35,7 @@ export default function MapEmbed() {
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/9zpt5yb8LEUNdpdq9"
+            href="https://maps.app.goo.gl/Pwhx2HcrSHAQo31D9"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

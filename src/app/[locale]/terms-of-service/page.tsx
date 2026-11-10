@@ -1,32 +1,11 @@
+import {pageMetadata} from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const itUrl = `${baseUrl}/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const frUrl = `${baseUrl}/fr/terms-of-service`;
-  const zhUrl = `${baseUrl}/zh-Hant/terms-of-service`;
-  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
-
-  return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
-    },
-  };
+export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata> {
+ const {locale}=await params;const m=(await import(`@/messages/${locale}.json`)).default;
+ return pageMetadata(locale,'/terms-of-service',m.terms.title,locale==='zh'?'采图亚公园独立指南：'+m.terms.title:'Cetățuia Park independent guide: '+m.terms.title);
 }
 
 function TermsContent() {
@@ -34,7 +13,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (
