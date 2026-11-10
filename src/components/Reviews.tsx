@@ -90,7 +90,7 @@ export default function Reviews() {
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">
           <a
-            href="https://maps.app.goo.gl/9zpt5yb8LEUNdpdq9"
+            href="https://maps.app.goo.gl/Pwhx2HcrSHAQo31D9"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"
