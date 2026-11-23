@@ -1,6 +1,8 @@
 import {notFound} from 'next/navigation';
 import {setRequestLocale} from 'next-intl/server';
 import Footer from '@/components/Footer';
+import GuideManagement from '@/components/GuideManagement';
+import {guideMapLinks} from '@/lib/guide-map';
 import GuideVisitDetails from '@/components/GuideVisitDetails';
 import SourceNotes from '@/components/SourceNotes';
 import {guides} from '@/data/guides';
@@ -53,7 +55,12 @@ export default async function GuidePage({params}: GuideProps) {
         </nav>
         <article className="max-w-4xl mx-auto px-6 py-12">
           <h1 className="font-display text-4xl sm:text-5xl leading-tight mb-8">{content.title}</h1>
-          <p className="text-xl leading-relaxed mb-12">{content.intro}</p>
+          <p className="text-xl leading-relaxed mb-6">{content.intro}</p>
+          {details && (
+            <a className="mb-8 inline-block rounded-xl border border-[var(--border-color)] px-4 py-2 underline" href={guideMapLinks(details).map}>
+              {zh ? '在 Google Maps 查看景点' : 'Find this attraction on Google Maps'}
+            </a>
+          )}
           {details?.photo && (
             <figure className="mb-10">
               <a href={photoCredit}>
@@ -66,6 +73,15 @@ export default async function GuidePage({params}: GuideProps) {
                 <a className="underline" href={photoCredit}>{details.photoCredit ? new URL(photoCredit).hostname.replace(/^www\./, '') : 'Cluj Tourism'}</a>
               </figcaption>
             </figure>
+          )}
+          {details && (
+            <GuideManagement
+              locale={locale}
+              details={details}
+              name={content.title}
+              context={'history' in content ? content.history : content.intro}
+              sourceUrl={sourceUrl}
+            />
           )}
           {details && <GuideVisitDetails locale={locale} details={details} />}
           {content.sections.map(([title, body]) => (
