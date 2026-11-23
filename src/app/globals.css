@@ -187,3 +187,74 @@ h1, h2, h3, h4, h5, h6 {
 a {
   transition: color 0.2s ease;
 }
+
+.travel-guide-hero {
+  position: relative;
+  display: flex;
+  align-items: end;
+  isolation: isolate;
+  min-height: clamp(30rem, 70svh, 43rem);
+  padding: 6rem 0 3rem;
+  background: var(--color-nature-900);
+  color: #fff;
+}
+
+.travel-guide-hero-shade {
+  background: linear-gradient(180deg, rgba(15, 32, 21, .74), rgba(15, 32, 21, .22) 30%, rgba(15, 32, 21, .93));
+}
+
+.travel-guide-pill {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, .38);
+  border-radius: 9999px;
+  padding: .5rem .9rem;
+  background: rgba(15, 32, 21, .64);
+  color: #fff;
+  font-size: .875rem;
+}
+
+.travel-guide-pill:hover,
+.travel-guide-pill:focus-visible {
+  background: var(--color-nature-700);
+  text-decoration: underline;
+}
+
+.travel-guide-body {
+  padding-block: 1rem 3rem;
+}
+
+.travel-guide-body > section,
+.travel-guide-body > nav {
+  margin-block: 1.5rem;
+  padding: clamp(1rem, 4vw, 2rem);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+}
+
+.travel-guide-body h2 {
+  color: var(--text-primary);
+}
+
+.travel-guide-body p,
+.travel-guide-body dd,
+.travel-guide-body address {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.travel-guide-body a {
+  color: var(--accent);
+  text-underline-offset: .2em;
+}
+
+.travel-guide-body [id] {
+  scroll-margin-top: 6rem;
+}
+
+.travel-guide-steps li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}

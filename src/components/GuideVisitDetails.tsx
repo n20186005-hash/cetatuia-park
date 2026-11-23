@@ -48,7 +48,7 @@ export default function GuideVisitDetails({locale, details, plan, sourceUrl}: {
           <div className={row}><dt className="font-semibold">{zh ? '当地名称' : 'Local map name'}</dt><dd lang="ro">{details.query}</dd></div>
           <div className={row}><dt className="font-semibold">{zh ? '景点类型' : 'Attraction type'}</dt><dd>{types[details.kind][locale]}</dd></div>
           <div className={row}><dt className="font-semibold">{zh ? '城市与国家' : 'City and country'}</dt><dd>{zh ? '罗马尼亚克鲁日-纳波卡' : 'Cluj-Napoca, Romania'}</dd></div>
-          <div className={row}><dt className="font-semibold">{zh ? '地址' : 'Address'}</dt><dd>{details.address}</dd></div>
+          <div className={row}><dt className="font-semibold">{zh ? '地址' : 'Address'}</dt><dd lang="ro">{details.address}</dd></div>
           <div className="grid gap-2 px-5 py-4 sm:grid-cols-[10rem_1fr]"><dt className="font-semibold">{zh ? '到访入口' : 'Visitor approach'}</dt><dd>{plan[locale].stops[0]}</dd></div>
         </dl>
       </section>
@@ -91,7 +91,7 @@ export function GuideItinerary({locale, details, plan}: {locale: GuideLocale; de
     <>
       <section className="my-10" aria-labelledby="itinerary">
         <h2 id="itinerary" className="font-display text-2xl mb-4">{zh ? '游览路线' : 'Suggested itinerary'}</h2>
-        <ol className="list-decimal space-y-3 pl-6">{stops.map(stop => <li key={stop}>{stop}</li>)}</ol>
+        <ol className="travel-guide-steps list-decimal space-y-3 pl-7">{stops.map(stop => <li key={stop} className="pl-2">{stop}</li>)}</ol>
       </section>
       <section className="my-10" aria-labelledby="visitor-notes">
         <h2 id="visitor-notes" className="font-display text-2xl mb-4">{zh ? '游览须知' : 'Visitor notes'}</h2>
@@ -121,7 +121,7 @@ export function GuideReviewAndMap({locale, details}: {locale: GuideLocale; detai
       </section>
       <section className="my-10 rounded-xl border border-[var(--border-color)] p-6" aria-labelledby="directions-map">
         <h2 id="directions-map" className="font-display text-2xl mb-4">{zh ? '交通指南与地图' : 'Address and map'}</h2>
-        <address className="not-italic">{details.address}, Cluj-Napoca, Romania</address>
+        <address className="not-italic"><span lang="ro">{details.address}</span>{zh ? "，罗马尼亚克鲁日-纳波卡" : ", Cluj-Napoca, Romania"}</address>
         <div className="mt-4 flex flex-wrap gap-4">
           <a className="underline" href={map}>{zh ? '打开景点地图' : 'Open attraction map'}</a>
           <a className="underline" href={directions}>{zh ? '规划路线' : 'Plan directions'}</a>

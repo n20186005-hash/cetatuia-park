@@ -22,19 +22,19 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2">
               <a href="https://romaniatourism.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                Romania Tourism
+                {locale === 'zh' ? '罗马尼亚旅游资讯' : 'Romania Tourism'}
               </a>
               <a href="https://visitcluj.ro/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                Visit Cluj
+                {locale === 'zh' ? '克鲁日旅游资讯' : 'Visit Cluj'}
               </a>
               <a href="https://visitclujnapoca.ro/en/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                Visit Cluj-Napoca
+                {locale === 'zh' ? '克鲁日-纳波卡城市指南' : 'Visit Cluj-Napoca'}
               </a>
               <a href="https://patrimoniu.ro/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                Patrimoniu
+                {locale === 'zh' ? '罗马尼亚国家遗产研究所' : 'Patrimoniu'}
               </a>
               <a href="https://gradinabotanica.ubbcluj.ro/en/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                Cluj-Napoca Botanical Garden
+                {locale === 'zh' ? '克鲁日-纳波卡植物园' : 'Cluj-Napoca Botanical Garden'}
               </a>
             </div>
           </div>
