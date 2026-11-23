@@ -1,4 +1,6 @@
-export const guides = [
+import {nearbyAttractions} from './nearby-attractions';
+
+const originalGuides = [
   {
     "slug": "central-park-casino",
     "source": "simion-barnutiu-central-park",
@@ -234,3 +236,5 @@ export const guides = [
     }
   }
 ] as const;
+
+export const guides = [...originalGuides, ...nearbyAttractions];
