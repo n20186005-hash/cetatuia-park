@@ -1,14 +1,22 @@
-import createNextIntlPlugin from 'next-intl/plugin';
+import type {NextConfig} from 'next';
+import {resolve} from 'node:path';
 
-const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
+const requestConfig = './src/i18n/request.ts';
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      { protocol: 'https' as const, hostname: 'images.unsplash.com' },
+      {protocol: 'https', hostname: 'images.unsplash.com'},
     ],
     unoptimized: true,
   },
+  turbopack: {
+    resolveAlias: {'next-intl/config': requestConfig},
+  },
+  webpack(config) {
+    config.resolve.alias['next-intl/config'] = resolve(config.context, requestConfig);
+    return config;
+  },
 };
 
-export default withNextIntl(nextConfig);
+export default nextConfig;
